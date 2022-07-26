@@ -1,0 +1,224 @@
+nav .text_center button {
+  color: white;
+  height: 50px;
+  width: 135px;
+  border-radius: 8px;
+}
+
+nav {
+  height: 520px;
+  background-color: #212529;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav .text_center {
+  text-align: center;
+  margin-top: 110px;
+}
+
+nav .text_center p:nth-child(1) {
+  font-weight: 850;
+  font-size: 40px;
+}
+
+nav .text_center p:nth-child(2) {
+  font-weight: lighter;
+  color: #FFFFFF80;
+  font-size: 18px;
+}
+
+nav .text_center button:nth-child(1) {
+  background-color: #0d6efd;
+  border: none;
+}
+
+nav .text_center button:nth-child(2) {
+  background-color: transparent;
+  border: white solid 1px;
+}
+
+main .section-1 {
+  margin-top: 40px;
+  border: none;
+}
+
+main .section-1 .cards .icon {
+  width: 55px;
+  height: 55px;
+  background-color: #0d6efd;
+}
+
+main .section-1 .cards .icon i {
+  font-size: 20px;
+  color: white;
+  margin: 14px 14px;
+}
+
+main .section-1 .text h4 {
+  font-weight: bold;
+}
+
+main .section-1 .text span {
+  color: #0d6efd;
+}
+
+main .section-1 .text span:hover {
+  color: #1c4d97;
+  cursor: pointer;
+}
+
+main .section-2 {
+  height: 760px;
+  background-color: #f8f9fa;
+  margin-top: 100px;
+  border: gray solid .5px;
+}
+
+main .section-2 .text {
+  text-align: center;
+  margin-top: 80px;
+}
+
+main .section-2 .text h2 {
+  font-weight: bold;
+}
+
+main .section-2 .text p {
+  font-size: 20px;
+  letter-spacing: .6px;
+}
+
+main .section-2 .plans {
+  background-color: white;
+  width: 300px;
+  height: 490px;
+  border: solid gray .5px;
+}
+
+main .section-2 .plans p {
+  font-size: 14px;
+  -webkit-columns: #6c757d;
+          columns: #6c757d;
+}
+
+main .section-2 .plans .span1 {
+  font-size: 56px;
+  font-weight: bold;
+}
+
+main .section-2 .plans ul {
+  line-height: 30px;
+}
+
+main .section-2 .plans .button {
+  text-align: center;
+}
+
+main .section-2 .plans .button button {
+  width: 170px;
+  height: 35px;
+  background-color: white;
+  border: #0d6efd solid 1px;
+  border-radius: 6px;
+  color: #0d6efd;
+}
+
+main .section-2 .plans .button button:hover {
+  background-color: #0d6efd;
+  color: white;
+}
+
+.section-3 {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.section-3 .reviews h2 {
+  font-weight: bold;
+}
+
+.section-3 .reviews .first {
+  font-size: 20px;
+}
+
+.section-3 .reviews .customer {
+  margin: 0  auto;
+  width: 520px;
+  height: 150px;
+  border: solid .5px gray;
+}
+
+.section-3 .reviews .customer .icon i {
+  font-size: 35px;
+  color: #0d6efd;
+}
+
+.section-4 {
+  background-color: #f8f9fa;
+  height: 790px;
+  margin-top: 60px;
+}
+
+.section-4 .contact-us {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.section-4 .contact-us .icon {
+  width: 67px;
+  height: 72px;
+  background-color: #0d6efd;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+.section-4 .contact-us .icon i {
+  font-size: 35px;
+  color: white;
+}
+
+.section-4 .contact-us .name {
+  width: 500px;
+  height: 55px;
+  border: solid .5px gray;
+}
+
+.section-4 .contact-us .email {
+  width: 500px;
+  height: 55px;
+  border: solid .5px gray;
+}
+
+.section-4 .contact-us .phone {
+  width: 500px;
+  height: 55px;
+  border: solid .5px gray;
+}
+
+.section-4 .contact-us .text {
+  width: 500px;
+  height: 170px;
+  border: solid .5px gray;
+}
+
+.section-4 .contact-us button {
+  width: 500px;
+  height: 40px;
+  background-color: #0d6efd;
+  color: white;
+}
+
+footer {
+  background-color: #212529;
+  height: 130px;
+  text-align: center;
+}
+
+footer .copyright p {
+  color: white;
+  margin-top: 50px;
+}
+/*# sourceMappingURL=main.css.map */

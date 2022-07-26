@@ -1,0 +1,203 @@
+nav{
+    height: 520px;
+    background-color: #212529;
+    a{
+        text-decoration: none;
+    }
+    .text_center{
+        text-align: center;
+        margin-top: 110px;
+        & p:nth-child(1){
+            font-weight: 850;
+            font-size: 40px;
+        }
+        & p:nth-child(2){
+         font-weight: lighter;
+         color: #FFFFFF80;
+         font-size: 18px;
+     }
+     & button{
+         @extend %button-style
+     }
+     & button:nth-child(1){
+         background-color: $bg-color;
+         border: none;
+     }
+     & button:nth-child(2){
+        background-color: transparent;
+        border: white solid 1px;
+    }
+   }
+
+
+}
+
+
+main .section-1{
+    margin-top: 40px;
+    border: none;
+    .cards{
+        .icon{
+            width: 55px;
+            height: 55px;
+            background-color: $bg-color;
+            & i{
+                font-size: 20px;
+                 color: white;
+                 margin: 14px 14px;
+            }
+        }
+    }
+    .text h4{
+        font-weight: bold;
+
+    }
+    .text span{
+        color: $bg-color;
+        &:hover{
+            color: #1c4d97;
+            cursor: pointer;
+        }
+    }
+    
+}
+
+main .section-2{
+    height: 760px;
+    background-color: #f8f9fa;
+    margin-top: 100px;
+    border: gray solid .5px;
+    .text{
+        text-align: center;
+        margin-top: 80px;
+        h2{
+            font-weight: bold;
+        }
+        p{
+            font-size: 20px;
+            letter-spacing: .6px;
+        }
+    }
+
+    .plans{
+        background-color: white;
+        width: 300px;
+        height: 490px;
+        border: solid gray .5px;
+        p{
+            font-size: 14px;
+            columns: #6c757d;
+        }
+
+        .span1{
+            font-size: 56px;
+            font-weight: bold;
+        }
+
+        ul{
+            line-height: 30px;
+        }
+        .button{
+            text-align: center;
+            button{
+                width: 170px;
+                height: 35px;
+                background-color: white;
+                border: $bg-color solid 1px;
+                border-radius: 6px;
+                color: $bg-color;
+                &:hover{
+                    background-color: $bg-color;
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+.section-3{
+    text-align: center;
+    margin-top: 100px;
+    .reviews{
+        h2{
+            font-weight: bold;
+        }
+        .first{
+            font-size: 20px;
+        }
+        .customer{
+            margin: 0  auto;
+            width: 520px;
+            height: 150px;
+            border: solid .5px gray;
+            .icon{
+                i{
+                    font-size: 35px;
+                    color: $bg-color;
+                }
+                
+            }
+        }
+    }
+}
+
+.section-4{
+    background-color: #f8f9fa;
+    height: 790px;
+    margin-top: 60px;
+    .contact-us{
+        text-align: center;
+        margin-top: 70px;
+        .icon{
+            width: 67px;
+            height: 72px;
+            background-color: $bg-color;
+            margin:  0 auto;
+            border-radius: 8px;
+          i{
+            font-size: 35px;
+            color: white;
+            
+        }
+    }
+       .name{
+           width: 500px;
+           height: 55px;
+           border: solid .5px gray;
+       }
+       .email{
+        width: 500px;
+        height: 55px;
+        border: solid .5px gray;
+       }
+       .phone{
+        width: 500px;
+        height: 55px;
+        border: solid .5px gray;
+       }
+       .text{
+        width: 500px;
+        height: 170px;
+        border: solid .5px gray;
+       }
+       button{
+           width: 500px;
+           height: 40px;
+           background-color: $bg-color;
+           color: white;
+       }
+    }
+}
+
+footer{
+    background-color: #212529;
+    height: 130px;
+    text-align: center;
+    .copyright{
+        p{
+            color: white;
+            margin-top: 50px;
+        }
+    }
+    
+}
